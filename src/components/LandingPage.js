@@ -1,9 +1,9 @@
+import './LandingPage.css';
 import React, { Component } from 'react';
-
 class LandingPage extends Component {
     render(){
         return(
-            <div>HELLO THERE!</div>
+            <div className={'title-styling' }>They Live!</div>
         );
     }
 }
